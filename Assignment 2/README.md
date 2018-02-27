@@ -23,12 +23,12 @@ Every new point is used to calculate ackley's value and checked with exsiting mi
 
 **Output of Hill Climbing Algorithm**
 
-![Hill Climbing Algorithm](figure_1.jpeg)
+![Hill Climbing Algorithm](figure_1.JPG)
 
 In this algorithm, the minimum doesn't reach global minimum every time and it mostly terminates at a value of -20.
 
 **Output of Hill Climbing Algorithm**
 
-![Differential Evolution Algorithm](figure_2.jpeg)
+![Differential Evolution Algorithm](figure_2.JPG)
 
 In this algorithm, the minimum reaches global minimum almost every time with value -22.7 obtained at position (0,0). It is clear that it doesn't stop at local minima as it continously learning from previous values (that is, parent values).
