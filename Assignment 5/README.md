@@ -5,5 +5,7 @@
 * 1024 features are select from the 32*32 boolean format and model is trained using 10 to 100 hidden layers and hidden nodes from 100 to 1000.
 * The precision of the model increases with increase in hidden layers and hidden nodes.
 
+![PrecisionOfModel](figure_1.JPG)
+
 ### Dependencies
 * scikit-learn
