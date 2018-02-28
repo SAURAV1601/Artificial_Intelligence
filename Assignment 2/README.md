@@ -32,3 +32,19 @@ In this algorithm, the minimum doesn't reach global minimum every time and it mo
 ![Differential Evolution Algorithm](figure_2.JPG)
 
 In this algorithm, the minimum reaches global minimum almost every time with value -22.7 obtained at position (0,0). It is clear that it doesn't stop at local minima as it continously learning from previous values (that is, parent values).
+
+
+### Travelling Salesman Problem
+
+In this, genetic algorithm is used to find the least cost path which covers all the given cities.
+
+Following are steps used to find solution in genetic algorithm.
+
+1. A population of 30 radom paths are taken initially.
+2. A roulette is computed using the inverse of the cost for each path. Generally, area in a roulette is proportional to the cost of the path if our goal is to find the maximum cost path. Here we are looking for a path which has the least value, which means we need to consider inverse of the path cost while building the roulette to make selection.
+3. Among the 30 paths, a decision has to be made whether it has to be selected for crossover or not. So a random number is generated and compared with crossover probability. This way we get n out of 30 paths which are ready for crossover.
+4. Implemented first order crossover and partially mapped crossover of the 'n' paths.
+5. The next step is mutation where I implemented Scramble mutation, after which the least cost is calculated in the population after the recombination methods to see if it is less than what we've obtained till now. 
+6. It is terminated when a least cost is found in previous 5000 iterations.
+
+
