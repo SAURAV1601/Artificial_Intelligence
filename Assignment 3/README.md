@@ -2,24 +2,8 @@
 
 ### Input and Execution of program
 
-#### Sample Input:
-000000006
-
-700000500
-
-350260010
-
-810500000
-
-060030070
-
-000006048
-
-030057081
-
-008000007
-
-200000000
+#### Sample Input and Output:
+![Image](figure_1.JPG)
 
 To execute the program, use the following command:
 
