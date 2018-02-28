@@ -4,13 +4,21 @@
 
 #### Sample Input:
 000000006
+
 700000500
+
 350260010
+
 810500000
+
 060030070
+
 000006048
+
 030057081
+
 008000007
+
 200000000
 
 To execute the program, use the following command:
@@ -23,6 +31,10 @@ Now enter the input and press enter, solution will be displayed.
 The puzzle is solved in two methods namely Naive backtracking and Smart backtracking.
 
 ### Naive Backtracking
-The basic backtracking method by going through each empty slot on the board and checking for all the values 1-9, if a particular number can be placed or not( If the other constraints don't allow it, I need to backtrack to the previous position where another number is checked for validity). I am going row-by-row in search of empty slots on the board. This is a naive method as it results in a lot of unnecessary branching.
+This is the basic backtracking method, where we place all values from 1-9 and check if the puzzle is solved. If a situation arises where in puzzle is not solved yet and a empty position can't filled filled with any number, we have to backtrack and check with the next value on the line. This method results in lot of unnecessary branching.
 
 ### Smart Backtracking
+Here, i have used minimum remaining values(MRV) heuristic along with naive backtracking algorithm. In this, we initially fill the empty spaces which has least domain of possible values and then the next space and so on. Each time the domains of all empty spaces are calculated and depending on that the positions are filled with values.
+
+### Analysis
+Naive backtracking method takes lot of time compared to smart backtracking method and also the number of backtracked steps are more.
