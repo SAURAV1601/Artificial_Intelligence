@@ -4,7 +4,7 @@ Solutions for few problems like sudoku, travelling sales man problem, connect4 u
 
 #### Assignment 1
 
-Solution for Sokoban Game using depth first search(DFS), breadth first search(BFS), greaady algorithm and A* search.
+Solution for Sokoban Game using depth first search(DFS), breadth first search(BFS), greedy algorithm and A* search.
 
 #### Assignment 2
 
